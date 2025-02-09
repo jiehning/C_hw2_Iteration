@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-void main(){
+/*題目 
+輸入一正整數，求其所有的因數。
+說明：36的因數為1, 2, 3, 4, 6, 9, 12, 18, 36。
+*/
+
+int main(){
 	unsigned int n;
 
 	printf("Please enter a positive interger:");
@@ -12,5 +17,5 @@ void main(){
 			printf("%d ",i);
 		}		
 	}
-	
+	return 0;	
 }

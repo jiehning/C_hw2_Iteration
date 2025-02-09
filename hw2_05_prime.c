@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-void main(){
+/*題目
+輸入一正整數，找出所有小於或等於的質數。 
+*/
+
+int main(){
 	int n, mod, sum = 0;
 
 	printf("Please enter a interger:");
@@ -19,5 +23,5 @@ void main(){
 		}
 		sum = 0;
 	}
-	
+	return 0;	
 }

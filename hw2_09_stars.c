@@ -1,6 +1,9 @@
 #include <stdio.h>
+/*題目 
+畫出三種排列的星星圖形
+*/
 
-void main(){
+int main(){
 	
 	int n;
 	printf("Please enter row numbers:");
@@ -28,7 +31,6 @@ void main(){
 		printf("\n");
 	}
 	
-	
 	printf("------------\n");
 	
 	//(3)
@@ -41,5 +43,6 @@ void main(){
 		}
 		printf("\n");
 	} 
-		
+	
+	return 0;		
 }
